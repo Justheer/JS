@@ -41,8 +41,34 @@ var myLanguage = "JavaScript"
 //Try to change the value of `birthYear` and observe the result.
 
 const birthYear = 2000
-    //   birthYear = 1999
      console.log(birthYear);
+
+//we know that we cannot reassign the value in const but if want to reassign then use object like below.
+
+const myNumber = {value: 10};
+myNumber.value = 11;
+
+console.log(myNumber);
+
+//array method
+const myArray = ['kakan', 'manan', 'gagan'];
+myArray[4] = 'tanan';
+console.log(myArray);
+
+//we know that we cannot redeclare the const variable, but if want to redeclare then use if statement or function.
+
+const myVillage = {value: 'dhroll'}
+myVillage.value = 'patan'
+
+if (true) {
+    const value = 'khambhalia'
+    console.log(value);
+}
+
+console.log(myVillage);
+
+
+
 
 
 
