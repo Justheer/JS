@@ -60,9 +60,5 @@ console.log(typeof heros)
 
 //object => object
 //array => array
-//function => function
-
-
-
-
+//function => function 
 
