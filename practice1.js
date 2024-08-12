@@ -26,6 +26,10 @@ console.log(typeof text);
 
 
 //Q.6 Explain how JavaScript handles type coercion.
+//Ans. with string and number for ex.
+let y = "5"+5+5;
+console.log(y);
+
 
 
 //Q.7 Give an example of NaN and explain its use.
