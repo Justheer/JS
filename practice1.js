@@ -10,16 +10,16 @@
 // Ans. Undefined : When variable print  without a value,then output will be undefined.
 // Ans. Null : When Variable print with zero value then output will be Null.
 //1
-let c = null;
-console.log(typeof c);
+let c = "";
+console.log(c);
 
 //2
 let d = 1;
-console.log(typeof d);
+//console.log(typeof d);
 
 //3
 let e = null;
-console.log(e);
+c//onsole.log(e);
 
 
 
@@ -34,13 +34,13 @@ let mark; // undefined
 
 //Q.5 Demonstrate how to check the type of a variable using typeof.
 // Ans.
-console.log(typeof text);
+//console.log(typeof text);
 
 
 //Q.6 Explain how JavaScript handles type coercion.
 //Ans. with string and number for ex.
 let y = "5"+5+5;
-console.log(y);
+c//onsole.log(y);
 
 
 
