@@ -1,0 +1,17 @@
+// singleton   // if object will create like a literals to singleton nahi banta. Or it will create like a constructor so it will singleton.
+//object,create   //this is a construction method, it will singleton.
+
+//object literals
+
+const JsUser = {
+    name : "Hiral",
+    age: 18,
+    location: "Jaipur",
+    email: "hiral@google.com",
+    isLoggesIn: false,
+    lastLoginDays: ["Monday", "Saturday"]
+}
+
+console.log(JsUser.email);
+console.log(JsUser["email"]);
+
