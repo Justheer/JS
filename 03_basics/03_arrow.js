@@ -24,15 +24,15 @@ const user = {
 // }
 // coffee()
 
-// const coffee = function (){
-//     let username = "heer"
-//     console.log(this.username);
-// }
-
-const coffee = () => {
+const coffee = function (){
     let username = "heer"
-    console.log(this);
+    console.log(this.username);
 }
+
+// const coffee = () => {
+//     let username = "heer"
+//     console.log(this);
+// }
 
 
 // coffee()
@@ -53,7 +53,7 @@ const coffee = () => {
 
 const addTwo = (num1, num2) => ({username: "heer"})
 
-console.log(addTwo(3,4));
+// console.log(addTwo(3,4));
 
 // const myArray = [2, 5, 3, 7, 8]
 
