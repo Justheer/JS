@@ -69,7 +69,3 @@ console.log(myVillage);
 
 
 
-
-
-
-     
