@@ -47,7 +47,19 @@ console.log(sum);
   //Exercise 6: Find the Factorial of a Number
   // Write a loop that calculates the factorial of a number, for example, 5! (5 factorial).
   
-  
+  function factorial(number) {
+    let result = 1;
+
+    for (let i = 1; i <= number; i++) {
+        result *= i;
+    }
+
+    return result;
+}
+console.log(factorial(5)); 
+console.log(factorial(3)); 
+console.log(factorial(0)); 
+
   
   
   
